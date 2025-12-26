@@ -1,0 +1,9 @@
+{
+  "name": "IND Help - Emergency Assistance",
+  "description": "A comprehensive emergency help platform for India providing instant access to emergency numbers, AI-powered first aid guidance, and nearby medical/police service locators.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera",
+    "microphone"
+  ]
+}
