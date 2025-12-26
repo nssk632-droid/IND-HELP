@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { AppView } from './types';
 import { EMERGENCY_NUMBERS, ICONS } from './constants';
 import EmergencyCard from './components/EmergencyCard';
@@ -116,6 +117,7 @@ const App: React.FC = () => {
           <ICONS.Map className="w-6 h-6" /><span className="text-[10px] font-bold">Nearby</span>
         </button>
       </nav>
+      <SpeedInsights />
     </div>
   );
 };
